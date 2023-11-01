@@ -10,3 +10,14 @@ opt.swapfile = false
 opt.scrolloff = 10
 opt.relativenumber = true
 opt.wrap = false
+
+-- Search
+opt.incsearch = true
+opt.ignorecase = true
+opt.smartcase = true
+opt.hlsearch = false
+opt.scrolloff = 10        -- keep padding for no of lines between top and bottom of screen
+opt.undodir = vim.fn.expand("~/.vim/undodir")
+opt.undofile = true
+opt.backspace = "indent,eol,start"
+opt.clipboard:append("unnamedplus")

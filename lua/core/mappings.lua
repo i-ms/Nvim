@@ -144,6 +144,23 @@ M.lspconfig = {
       "LSP definition",
     },
 
+    ["gt"] = {
+      function()
+        vim.lsp.buf.type_definition()
+      end,
+      "LSP definition type",
+    },
+
+    ["gi"] = {
+      "<cmd>Telescope lsp_implementations<CR>",
+      "LSP implementation",
+    },
+
+    ["gr"] = {
+      "<cmd>Telescope lsp_references<CR>",
+      "LSP references",
+    },
+
     ["K"] = {
       function()
         vim.lsp.buf.hover()
@@ -151,25 +168,11 @@ M.lspconfig = {
       "LSP hover",
     },
 
-    ["gi"] = {
-      function()
-        vim.lsp.buf.implementation()
-      end,
-      "LSP implementation",
-    },
-
     ["<leader>ls"] = {
       function()
         vim.lsp.buf.signature_help()
       end,
       "LSP signature help",
-    },
-
-    ["<leader>D"] = {
-      function()
-        vim.lsp.buf.type_definition()
-      end,
-      "LSP definition type",
     },
 
     ["<leader>ra"] = {
@@ -184,13 +187,6 @@ M.lspconfig = {
         vim.lsp.buf.code_action()
       end,
       "LSP code action",
-    },
-
-    ["gr"] = {
-      function()
-        vim.lsp.buf.references()
-      end,
-      "LSP references",
     },
 
     ["<leader>lf"] = {
