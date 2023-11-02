@@ -39,5 +39,7 @@ return {
         "json-lsp",
         "sonarlint-language-server"
       },
+      -- auto-install configured servers ( with lspconfig )
+      automatic_installation = true,
     }
   }
