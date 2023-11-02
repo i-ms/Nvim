@@ -15,4 +15,6 @@ return {
   -- require "custom.plugins.nvimlint",
   -- formatter
   -- require "custom.plugins.formatter",
+  -- null-ls for formatting and linting
+  require "custom.plugins.null-ls",
 }
