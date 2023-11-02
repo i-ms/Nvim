@@ -13,4 +13,6 @@ return {
   require "custom.plugins.harpoon",
   -- linters
   -- require "custom.plugins.nvimlint",
+  -- formatter
+  -- require "custom.plugins.formatter",
 }
