@@ -5,4 +5,8 @@ return {
   require "custom.plugins.lspconfig",
   -- treesitter for code ast related tasks
   require "custom.plugins.treesitter",
+  -- debugger for neovim
+  require "custom.plugins.dap",
+  -- mason for installing lsp and formatters
+  require "custom.plugins.mason"
 }
