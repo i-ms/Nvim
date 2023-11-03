@@ -285,6 +285,7 @@ M.telescope = {
     ["<leader>th"] = { "<cmd> Telescope themes <CR>", "Nvchad themes" },
 
     ["<leader>ma"] = { "<cmd> Telescope marks <CR>", "telescope bookmarks" },
+    ["<F5>"] = { "<cmd> Telescope commands <CR>", "View all available commands"},
   },
 }
 

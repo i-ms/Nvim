@@ -17,4 +17,6 @@ return {
   -- require "custom.plugins.formatter",
   -- null-ls for formatting and linting
   require "custom.plugins.null-ls",
+  -- set of go plugins for development
+  require "custom.plugins.go"
 }
