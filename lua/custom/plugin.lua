@@ -18,5 +18,7 @@ return {
   -- null-ls for formatting and linting
   require "custom.plugins.null-ls",
   -- set of go plugins for development
-  require "custom.plugins.go"
+  require "custom.plugins.go",
+  -- set of mini tools
+  require "custom.plugins.mini",
 }
