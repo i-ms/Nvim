@@ -21,4 +21,6 @@ return {
   require "custom.plugins.go",
   -- set of mini tools
   require "custom.plugins.mini",
+  -- ui plugin for cmd line and notifications
+  require "custom.plugins.noice",
 }
